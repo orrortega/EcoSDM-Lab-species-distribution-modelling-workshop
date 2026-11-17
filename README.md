@@ -105,26 +105,6 @@ These are **illustrative rows, not a complete valid dataset**. The workshop app 
 
 Without a separate prediction-location file, predictions are shown **at surveyed locations only**, not across unsampled areas.
 
-## Deploying to Shinyapps.io
-
-First install the deployment package:
-
-```r
-install.packages("rsconnect")
-```
-
-Connect your Shinyapps.io account to RStudio following [Posit's deployment instructions](https://docs.posit.co/shinyapps.io/guide/getting_started/). Then deploy the application **folder** (not a ZIP archive):
-
-```r
-rsconnect::deployApp(
-  appDir = "path/to/your/repository",
-  appName = "ecosdm-lab"
-)
-```
-
-You can also publish from RStudio using its **Publish** button. Check that `app.R` and both files in `data/` are included. A `deploy.R` script and additional deployment notes are provided in [`README_DEPLOY.md`](README_DEPLOY.md).
-
-**Do not commit your Shinyapps.io token, account secrets or other credentials to GitHub.**
 
 ## Interpretation and limitations
 
