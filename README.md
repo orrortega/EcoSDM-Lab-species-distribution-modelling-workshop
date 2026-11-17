@@ -37,8 +37,6 @@ Model fitting is **button-controlled** to reduce unnecessary computation during 
 - Display-only controls, such as changing the plotted predictor or classification threshold, do **not** refit models.
 - If the selected settings differ from those used for a fit, the app prompts you to refit rather than silently presenting outdated results.
 
-Each visitor has their **own Shiny session and model fits**. The app can be hosted on a free Shinyapps.io account for small workshops, but performance with multiple simultaneous users depends on the hosting resources; concurrent-load testing is recommended.
-
 ## Project structure
 
 ```text
