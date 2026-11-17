@@ -39,35 +39,6 @@ Model fitting is **button-controlled** to reduce unnecessary computation during 
 
 Each visitor has their **own Shiny session and model fits**. The app can be hosted on a free Shinyapps.io account for small workshops, but performance with multiple simultaneous users depends on the hosting resources; concurrent-load testing is recommended.
 
-## Getting started
-
-### Requirements
-
-- R and RStudio (recommended)
-- R packages: `shiny`, `bslib`, `ggplot2`, `mgcv`, `ranger`
-- Optional for publishing: `rsconnect`
-
-Install the required packages in R:
-
-```r
-install.packages(c("shiny", "bslib", "ggplot2", "mgcv", "ranger"))
-```
-
-Clone or download the repository, keeping the `data/` folder alongside `app.R`:
-
-```bash
-git clone <YOUR-REPOSITORY-URL>
-cd <YOUR-REPOSITORY-FOLDER>
-```
-
-Then run from R, replacing the path with your local project folder:
-
-```r
-shiny::runApp("path/to/your/repository")
-```
-
-Alternatively, open `app.R` in RStudio and select **Run App**. The app expects its packaged `data/` directory to be available; do not run `app.R` in isolation.
-
 ## Project structure
 
 ```text
@@ -118,7 +89,17 @@ EcoSDM Lab is designed for **teaching**, not as a validated operational conserva
 - Random and spatial holdouts illustrate different validation questions but do not replace a full external validation study.
 - A high predicted occurrence probability alone is not a sufficient basis for choosing a restoration site.
 
-If deploying publicly, remember that uploaded CSV files are processed on the **hosting server** within each visitor's session. Do not upload sensitive, personally identifiable or restricted species-location data without appropriate permission.
+## Online application
+
+The deployed version of the app is available here:
+
+[Launch EcoSDM-Lab-species-distribution-modelling-workshop](https://orderortega.shinyapps.io/EcoSDM_Lab_SDM_worshop/)
+
+## Source code
+
+The source code is available on GitHub:
+
+[GitHub repository](https://github.com/orrortega/EcoSDM-Lab-species-distribution-modelling-workshop)
 
 ## Author and contact
 
