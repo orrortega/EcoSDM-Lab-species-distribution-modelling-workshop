@@ -122,7 +122,7 @@ If deploying publicly, remember that uploaded CSV files are processed on the **h
 
 ## Author and contact
 
-**Dr Oscar Rodriguez de Rivera**  
+**Dr Oscar Rodriguez de Rivera Ortega**  
 Senior Lecturer in Statistics, University of Exeter  
 [Email](mailto:o.m.rodriguez-de-rivera-ortega@exeter.ac.uk)
 
