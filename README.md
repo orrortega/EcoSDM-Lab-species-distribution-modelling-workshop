@@ -47,10 +47,8 @@ EcoSDM-Lab/
 ├── data/
 │   ├── simulated_landscape.csv    # Fictional prediction landscape
 │   └── simulated_observations.csv # Fictional presence–absence surveys
-├── deploy.R                       # Optional Shinyapps.io deployment script
-├── .rscignore                     # Files excluded from deployment
-├── README.md                      # This file
-└── README_DEPLOY.md               # Detailed hosting instructions
+├── .gitignore                     # Files excluded from deployment
+└──README.md                       # This file
 ```
 
 The included example contains **3,640 simulated landscape cells and 750 simulated surveys**. These represent no real species or geographic location.
