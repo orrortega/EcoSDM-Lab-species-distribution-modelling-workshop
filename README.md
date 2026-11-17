@@ -93,7 +93,7 @@ EcoSDM Lab is designed for **teaching**, not as a validated operational conserva
 
 The deployed version of the app is available here:
 
-[Launch EcoSDM-Lab-species-distribution-modelling-workshop](https://orderortega.shinyapps.io/EcoSDM_Lab_SDM_worshop/)
+[Launch EcoSDM Lab](https://orderortega.shinyapps.io/EcoSDM_Lab_SDM_worshop/)
 
 ## Source code
 
